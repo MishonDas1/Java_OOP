@@ -6,7 +6,7 @@ public class Teacher {
     String phone;
     int age;
     
-    void SetInformation(String n,String g, String p,int a){
+        Teacher(String n,String g, String p,int a){
         name =n;
         gender=g;
         phone=p;

@@ -6,4 +6,11 @@ public class Teacher {
     String phone;
     int age;
     
+    void Display(){
+        System.out.println("Name : " + name);
+        System.out.println("Gender : " + gender);
+        System.out.println("Phone Number : " +phone);
+        System.out.println("Age : " + age);
+    }
+    
 }
